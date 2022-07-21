@@ -1,0 +1,13 @@
+const a1 = 5;
+const b1 = 20;
+const c1 = 2 ;
+const d1 = "5";
+const e1 = 50;
+    const respostaA = ((a1 > b1) && a1  < c1);
+    const respostaB = (a1 === a1 || a1 === d1);
+    const respostaC = (!b1 > e1);
+    const respostaD = ! (b1 > e1);
+console.log("5 é maior que 20 e também é menor que 2",respostaA);
+console.log("5 é igual a 5 ou é igual a “5”",respostaB);
+console.log("negação de vinte é maior que cinquenta",respostaC);
+console.log("negação de (vinte é maior que cinquenta)",respostaD);

@@ -1,0 +1,21 @@
+const perguntaA = "Por favor escolha qualquer número";
+const respostaA = Number (prompt (perguntaA));
+const perguntaB = "Mais um número Please!!xD";
+const respostaB = Number (prompt (perguntaB));
+console.log(respostaA);
+console.log(respostaB);
+    const a = "O primeiro numero é maior que segundo?";
+    const b = "O primeiro numero é igual ao segundo?";
+    const c = "O primeiro numero é divisível pelo segundo?";
+    const d = "O segundo numero é divisível pelo primeiro?";
+        const rA = (respostaA > respostaB);
+        const rB =  (respostaA === respostaB);
+        const rC = (respostaA  % respostaB);
+        const rCA = ("0" == rC);
+        const rD = (respostaB & respostaA);
+        const rDA = ("0" == rD);
+console.log(a ,rA);
+console.log(b, rB);
+console.log(c, rC, rCA);
+console.log(d, rD, rDA);
+
